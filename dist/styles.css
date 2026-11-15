@@ -176,3 +176,10 @@ h1 > span { color: #e97239; }
   .product-intro .section-heading { margin-bottom: 0; }
   .topbar nav { flex-wrap: wrap; column-gap: 16px; row-gap: 0; }
 }
+
+#structural .guide-overview { grid-template-columns: 1fr; gap: 14px; }
+.analysis-figure { margin: 0; }
+.analysis-figure img { aspect-ratio: auto; height: auto; object-fit: contain; }
+.analysis-figure figcaption { color: var(--muted); font-size: .77rem; margin-top: 4px; }
+.calculation-figure { margin-bottom: 24px; }
+.card a[href$="#structural"] img { object-fit: contain; background: #fafafa; }
