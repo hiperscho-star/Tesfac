@@ -165,3 +165,14 @@ h1 > span { color: #e97239; }
   .guide-overview img { aspect-ratio: 1.9; }
 }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition-duration: 0s !important; } }
+
+.product-intro { padding-block: clamp(32px, 5vw, 64px); border-top: 1px solid var(--line); }
+.product-intro-inner { display: grid; grid-template-columns: minmax(180px, 1fr) 2fr; gap: 24px; }
+.product-intro-copy { display: grid; gap: 12px; color: var(--muted); word-break: keep-all; }
+.product-intro-copy a { color: var(--accent-dark); font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+.guide-section p + h3 { margin-top: 20px; }
+@media (max-width: 700px) {
+  .product-intro-inner { grid-template-columns: 1fr; gap: 12px; }
+  .product-intro .section-heading { margin-bottom: 0; }
+  .topbar nav { flex-wrap: wrap; column-gap: 16px; row-gap: 0; }
+}
