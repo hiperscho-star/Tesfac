@@ -65,7 +65,7 @@ h1 > span { color: #e97239; }
 .text-link { display: inline-flex; align-items: center; gap: 8px; padding: 8px 0; border-bottom: 1px solid currentColor; font-weight: 700; font-size: .89rem; white-space: nowrap; }
 .text-link svg { width: 17px; height: 17px; }
 .catalog .text-link:hover { color: #ffad84; }
-.catalog-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; }
+.catalog-grid { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 12px; }
 .card { background: #303430; min-width: 0; }
 .card a { display: flex; flex-direction: column; height: 100%; }
 .card a:hover { background: #3d433d; }
