@@ -106,6 +106,8 @@ h1 > span { color: #e97239; }
 .guide-index a:hover, .guide-note a:hover { color: var(--accent-dark); }
 .guide-note { background: #eeece4; border-left: 3px solid #d85f2b; padding: 16px 19px; margin-bottom: 30px; font-size: .9rem; }
 .guide-note p { margin: 3px 0 7px; }
+.guide-note ul { margin: 4px 0 0; padding-left: 20px; }
+.guide-note li + li { margin-top: 4px; }
 .guide-note a { display: inline-flex; gap: 4px; align-items: center; text-decoration: underline; text-underline-offset: 3px; }
 .guide-section { padding: 34px 0 36px; border-top: 1px solid var(--line); scroll-margin-top: 18px; }
 .guide-section:last-child { padding-bottom: 0; }
