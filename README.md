@@ -10,13 +10,13 @@
 | hero.jpg | 홈페이지 대표 사진 |
 | proof.jpg | 내압시험설비 |
 | burst.jpg | 파열시험 챔버 |
-| leak.jpg | 기밀시험설비 |
+| leak-equipment.jpg | 기밀시험설비 |
 | buffer-high.jpg | 고압 버퍼탱크 사진 |
 | buffer-low.png | 저압 버퍼탱크 사진 |
 | manual-pump.jpg | 수동가압설비 고압 핸드펌프 |
 | manual-logger.jpg | 수동가압설비 압력·온도 측정장비 |
 | chamber-analysis.png | 안전 구조 계산 및 해석 대표 이미지 |
-| wall-thickness.png | 무계목 용기 벽두께 계산 시트 발췌 |
+| wall-thickness.jpg | 용기 벽두께 계산시트 |
 
 설비별 사진은 홈페이지 카드와 매뉴얼에서 공통으로 사용합니다. 사진을 교체할 때 두 HTML 파일의 이미지 설명(`alt`)도 확인하세요. 각 설비 카드와 매뉴얼 목차가 연결되므로 제목만 바꿀 때는 기존 `id` 값을 유지합니다.
 
