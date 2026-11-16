@@ -13,7 +13,8 @@
 | leak.jpg | 기밀시험설비 |
 | buffer-high.jpg | 고압 버퍼탱크 사진 |
 | buffer-low.png | 저압 버퍼탱크 사진 |
-| manual.jpg | 수동가압설비 |
+| manual-pump.jpg | 수동가압설비 고압 핸드펌프 |
+| manual-logger.jpg | 수동가압설비 압력·온도 측정장비 |
 | chamber-analysis.png | 안전 구조 계산 및 해석 대표 이미지 |
 | wall-thickness.png | 무계목 용기 벽두께 계산 시트 발췌 |
 
