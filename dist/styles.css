@@ -183,3 +183,12 @@ h1 > span { color: #e97239; }
 .analysis-figure figcaption { color: var(--muted); font-size: .77rem; margin-top: 4px; }
 .calculation-figure { margin-bottom: 24px; }
 .card a[href$="#structural"] img { object-fit: contain; background: #fafafa; }
+
+.buffer-copy { display: grid; gap: 12px; }
+.buffer-copy a { color: var(--accent-dark); text-decoration: underline; text-underline-offset: 3px; }
+.buffer-photos { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin-top: 20px; }
+.buffer-photos img { aspect-ratio: 4 / 3; object-fit: contain; background: #efeee8; }
+.buffer-photos figcaption { margin-top: 6px; color: var(--muted); font-size: .86rem; }
+@media (max-width: 520px) {
+  .buffer-photos { grid-template-columns: 1fr; }
+}
