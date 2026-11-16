@@ -227,7 +227,7 @@ h1 > span { color: #e97239; }
   .language-switch a { padding-inline: 5px; }
 }
 
-main p:not(.eyebrow, .card-kicker), .guide-section dd {
+main p:not(.eyebrow, .card-kicker, .card-description), .guide-section dd {
   text-align: justify;
   text-align-last: start;
 }
