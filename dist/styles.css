@@ -192,3 +192,8 @@ h1 > span { color: #e97239; }
 @media (max-width: 520px) {
   .equipment-photos { grid-template-columns: 1fr; }
 }
+
+.test-service { background: #f7b692; padding-block: 28px; }
+.test-service-inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px 24px; }
+.test-service h2 { font-size: clamp(1.55rem, 3.2vw, 2.1rem); margin-bottom: 8px; letter-spacing: -.05em; }
+.test-service p { word-break: keep-all; }
