@@ -226,3 +226,8 @@ h1 > span { color: #e97239; }
   .topbar .brand-symbol { width: 36px; }
   .language-switch a { padding-inline: 5px; }
 }
+
+main p:not(.eyebrow, .card-kicker), .guide-section dd {
+  text-align: justify;
+  text-align-last: start;
+}
