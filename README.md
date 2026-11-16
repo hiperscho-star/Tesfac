@@ -21,3 +21,5 @@
 설비별 사진은 홈페이지 카드와 매뉴얼에서 공통으로 사용합니다. 사진을 교체할 때 두 HTML 파일의 이미지 설명(`alt`)도 확인하세요. 각 설비 카드와 매뉴얼 목차가 연결되므로 제목만 바꿀 때는 기존 `id` 값을 유지합니다.
 
 `dist/index.html`을 브라우저에서 열어 변경 사항을 확인할 수 있습니다. 온라인 사이트에 적용하려면 같은 Sites 프로젝트에 새 버전을 배포합니다.
+
+회사소개 배경 이미지 출처는 [Gerd Altmann · Pixabay](https://pixabay.com/illustrations/circuit-board-abstract-background-6961316/)입니다. [Pixabay Content License](https://pixabay.com/service/license-summary/)
