@@ -238,3 +238,39 @@ main p:not(.eyebrow, .card-kicker, .card-description), .guide-section dd {
 .guide-section .detail-list, .guide-hero .detail-list, .contact .detail-list { color: var(--muted); }
 .detail-list a { color: var(--accent-dark); text-decoration: underline; text-underline-offset: 3px; }
 .contact h2 + .detail-list { margin-top: 12px; }
+
+.inquiry-page { padding-block: clamp(30px, 6vw, 72px); }
+.inquiry-page h1 { margin: 0 0 24px; font-size: clamp(2rem, 4vw, 3rem); letter-spacing: -.055em; }
+.inquiry-form { max-width: 780px; }
+.inquiry-fields { border-top: 2px solid var(--ink); }
+.inquiry-row {
+  display: grid;
+  grid-template-columns: minmax(160px, 28%) minmax(0, 1fr);
+  column-gap: 16px;
+  align-items: start;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--line);
+}
+.inquiry-row label { font-weight: 700; padding-block: 9px; }
+.inquiry-row input, .inquiry-row textarea {
+  width: 100%;
+  min-width: 0;
+  padding: 10px 12px;
+  font: inherit;
+  color: var(--ink);
+  background: white;
+  border: 1px solid #858781;
+  border-radius: 2px;
+}
+.inquiry-row [readonly] { background: #eae9e2; }
+.inquiry-row textarea { resize: vertical; }
+.inquiry-row small { grid-column: 2; margin-top: 4px; color: var(--muted); }
+.inquiry-form :is(input, textarea, button):focus-visible { outline: 2px solid var(--accent-dark); outline-offset: 2px; }
+.inquiry-form .inquiry-privacy { margin-block: 16px; text-align: start; font-size: .9rem; color: var(--muted); }
+.inquiry-privacy a { text-decoration: underline; }
+.inquiry-form button { cursor: pointer; }
+@media (max-width: 540px) {
+  .inquiry-row { grid-template-columns: 1fr; gap: 4px; }
+  .inquiry-row label { padding-block: 0; }
+  .inquiry-row small { grid-column: 1; }
+}
