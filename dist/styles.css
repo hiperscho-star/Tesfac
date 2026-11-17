@@ -233,7 +233,6 @@ main p:not(.eyebrow, .card-kicker, .card-description), .guide-section dd {
 
 .detail-list { margin: 0; padding-inline-start: 1.25em; text-align: start; }
 .detail-list li + li { margin-top: .32em; }
-.detail-list.hero-description { margin-bottom: 24px; }
 .detail-list.testing-summary { margin-bottom: 20px; }
 .guide-section .detail-list, .guide-hero .detail-list, .contact .detail-list { color: var(--muted); }
 .detail-list a { color: var(--accent-dark); text-decoration: underline; text-underline-offset: 3px; }
